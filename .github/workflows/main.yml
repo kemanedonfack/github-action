@@ -19,7 +19,6 @@ jobs:
           php-version: 7.4
       - name: Run tests
         run: |
-          composer install --no-interaction --no-progress
           phpunit
       - name: Sync file with the hosting
         uses: Samkirkland/FTP-Deploy-Action@4.0.0
