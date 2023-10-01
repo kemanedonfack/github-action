@@ -5,6 +5,6 @@
 </head>
 <body>
     <h1>Hello, World! </h1>
-    <p>Ceci est une application PHP de démonstration.</p>
+    <p>This is a PHP demonstration application.</p>
 </body>
 </html>
