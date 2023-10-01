@@ -17,9 +17,11 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: 7.4
+      - name: Install PHPUnit
+        run: composer require --dev phpunit/phpunit
       - name: Run tests
         run: |
-          phpunit
+          vendor/bin/phpunit
       - name: Sync file with the hosting
         uses: Samkirkland/FTP-Deploy-Action@4.0.0
         with:
