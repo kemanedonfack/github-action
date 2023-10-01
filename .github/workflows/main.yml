@@ -19,6 +19,8 @@ jobs:
           php-version: 7.4
       - name: Install PHPUnit
         run: composer require --dev phpunit/phpunit
+      - name: Show
+        run: ls  
       - name: Run tests
         run: |
           vendor/bin/phpunit tests/taskTest.php
