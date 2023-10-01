@@ -7,7 +7,7 @@
     <h1>Liste de tâches</h1>
     <ul>
         <?php
-        require_once('../src/task.php');
+        require_once('Task.php');
 
         $task1 = new Task('Faire les courses');
         $task2 = new Task('Répondre aux e-mails');

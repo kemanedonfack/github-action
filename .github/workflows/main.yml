@@ -23,7 +23,7 @@ jobs:
         run: ls  
       - name: Run tests
         run: |
-          vendor/bin/phpunit tests/taskTest.php
+          vendor/bin/phpunit taskTest.php
       - name: Sync file with the hosting
         uses: Samkirkland/FTP-Deploy-Action@4.0.0
         with:
