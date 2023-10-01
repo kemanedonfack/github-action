@@ -21,7 +21,7 @@ jobs:
         run: composer require --dev phpunit/phpunit
       - name: Run tests
         run: |
-          vendor/bin/phpunit
+          phpunit
       - name: Sync file with the hosting
         uses: Samkirkland/FTP-Deploy-Action@4.0.0
         with:
