@@ -40,6 +40,6 @@ jobs:
         uses: Samkirkland/FTP-Deploy-Action@4.0.0
         with:
           server: ftp.kemanedonfack.com
-          username: KemaneFTP
+          username: u903494882.KemaneFTP
           password: ${{ secrets.FTP_PASSWORD }}
 
