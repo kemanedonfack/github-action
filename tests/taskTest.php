@@ -1,6 +1,6 @@
 <?php
 
-require_once('../src/Task.php');
+require_once('../src/task.php');
 use PHPUnit\Framework\TestCase;
 
 class TaskTest extends TestCase {
